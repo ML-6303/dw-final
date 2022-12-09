@@ -1,0 +1,224 @@
+@charset "UTF-8";
+nav {
+    align-content: center;
+    text-align: center;
+    background-color: #002147;
+    width: auto;
+    height: auto;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+nav a {
+    color: #4DA2BC;
+    font-weight:;
+    font-size: medium;
+    font-family: "Felix Titling", "Baskerville Old Face", "Times New Roman";
+    letter-spacing: 2pt;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #2F5FAA;
+    text-decoration: none;
+}
+body {
+	background-attachment: fixed;
+	background-image: url("../images/background/nightsky1.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-color: #000;
+	margin: 10px 10px 0px 10px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: left;
+	color: #FFF;
+	margin: 0;
+	padding: 15px 0px 15px 0px;
+}
+h2  {
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+	margin: 0px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1.00);
+	font-family: "Lucida Handwriting";
+}
+h3  {
+	height: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	margin: 0px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	font-style: italic;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1.00);
+}
+p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 175%;
+	color: #FFF;
+	padding-bottom: 10px;
+}
+
+/****** CONTACT PAGE ******/
+
+#contact h2 {
+    color: #DBC652;
+}
+#contact img {
+    width: 300px;
+    padding: 0px;
+    margin: 30px;
+    border: 6px solid #000000;
+    float: right;
+}
+#contact #address {
+    width: 300px;
+    text-align: center;
+}
+
+#contact #email {
+    width: 300px;
+    text-align: center;
+	float:right;
+	margin: 0px 50px 30px 0px;
+}
+#contact #email a {
+    color: #F9A88A;
+    text-decoration: underline;
+}
+
+/******* CONTACT FORM *******/
+
+#contact-form {
+    float: left;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+    margin: 0px 0 20px 20px;
+    color: #F9A88A;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+	text-align:left;
+}
+
+input, textarea {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    min-height: 2em;
+    background-color: black;
+	color: white;
+	border-style: hidden;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 150px;
+    margin: 0px auto 100px 100px;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #F6885F;
+    border: 1px solid #000000;
+    color: white;
+    font-weight: bold;
+
+figure {
+    padding: 0px;
+    margin: 5px;
+    width: 150px;
+    display: inline-block;
+}
+figcaption {
+    font-weight: 900;
+    text-align: center;
+}
+.align-center {
+    width: 100%;
+    text-align: center;
+}
+
+.feature-section {
+	margin: 15px 0px 15px 0px;
+	padding: 5px 0px 0px 0px;
+	border-radius: 30px 30px 30px 30px;
+	background-image: none;
+	background-color: none;
+}
+.feature-section p {
+	color: #000000;
+	background-color: rgba(255,255,255,0.80);
+	font-size: 13px;
+	padding: 10px 10px 15px 10px;
+	margin: 0px;
+	font-family: "Lucida Handwriting";
+}
+.feature-section:hover {
+    max-height: 999px;
+}
+.footer {
+	color: rgba(148,148,148,1.00);
+	text-align: center;
+	font-size: medium;
+}
+
+@media (max-width: 800px){
+.feature-section {
+    max-height: 55px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+	}	}
+
+@media screen and (min-width:768px) {
+	h1 {font-size: 38px;}
+	p {font-size: 18px;}
+	.feature-section {font-size: 16px;}
+}
+iframe {
+    width: 700px;
+    border: 10px;
+    height: 500px;
+}
+
+/******* FOOTER *******/
+
+footer  {
+    width: 100%;
+    height: 100%;
+	min-height: 50px;
+	text-align: center;
+	color: white;
+    margin: 50px 0px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: none;
+    clear: both;
+}
+
