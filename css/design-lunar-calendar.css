@@ -11,8 +11,8 @@ body {
 	font-size: 14px;
 	}
 th {
-	text-align: left;
-	background-color:#5A698C;
+	text-align: center;
+	background-color:#375CB6;
 	padding: 3px;
 	margin-top: 10px;
 	border-bottom: thin solid #3004C4;
@@ -23,10 +23,10 @@ td {
 	border-bottom: thin solid #3004C4;
 }
 p {
-	text-align: center;
+	text-align: left;
 }
 .dark-background {
-	background-color:#375CB6;
+	background-color: #F09F34;
 }	
 .even {
 	background-color: azure;

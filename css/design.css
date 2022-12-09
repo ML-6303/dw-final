@@ -6,16 +6,14 @@ nav {
     width: auto;
     height: auto;
     font-size: medium;
-    text-align: center;
     text-decoration: none;
 }
 nav a {
     color: #4DA2BC;
-    font-weight:;
+    font-weight:bold;
     font-size: medium;
     font-family: "Felix Titling", "Baskerville Old Face", "Times New Roman";
     letter-spacing: 2pt;
-    font-weight: bold;
 }
 nav a:hover {
     color: #2F5FAA;
@@ -29,7 +27,7 @@ body {
 	background-position:center;
 	background-color: #000;
 	margin: 10px 10px 0px 10px;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,7 +37,7 @@ body {
 h1 {
 	font-size: 24px;
 	font-weight: 600;
-	text-align: left;
+	text-align: center;
 	color: #FFF;
 	margin: 0;
 	padding: 15px 0px 15px 0px;
@@ -75,38 +73,10 @@ p {
 	padding-bottom: 10px;
 }
 
-/****** CONTACT PAGE ******/
-
-#contact h2 {
-    color: #DBC652;
-}
-#contact img {
-    width: 300px;
-    padding: 0px;
-    margin: 30px;
-    border: 6px solid #000000;
-    float: right;
-}
-#contact #address {
-    width: 300px;
-    text-align: center;
-}
-
-#contact #email {
-    width: 300px;
-    text-align: center;
-	float:right;
-	margin: 0px 50px 30px 0px;
-}
-#contact #email a {
-    color: #F9A88A;
-    text-decoration: underline;
-}
-
 /******* CONTACT FORM *******/
 
 #contact-form {
-    float: left;
+    float:left;
 }
 form {
   width: 300px;
@@ -115,7 +85,7 @@ form {
 
 label {
     margin: 0px 0 20px 20px;
-    color: #F9A88A;
+    color: #F09F34;
     font-size: 16px;
     line-height: 20px;
     display: inline-block;
@@ -126,7 +96,7 @@ input, textarea {
     margin: 10px 0 10px 0;
     width: 300px;
     min-height: 2em;
-    background-color: black;
+    background-color:#06172A;
 	color: white;
 	border-style: hidden;
 }
@@ -143,20 +113,23 @@ input[type="submit"] {
     margin: 0px auto 100px 100px;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #F6885F;
+    background-color:#F09F34;
     border: 1px solid #000000;
     color: white;
     font-weight: bold;
+}
 
 figure {
     padding: 0px;
     margin: 5px;
-    width: 150px;
+    width: 300px;
     display: inline-block;
 }
 figcaption {
-    font-weight: 900;
+    font-weight: bold;
     text-align: center;
+	width: 300px;
+	color: #F09F34;
 }
 .align-center {
     width: 100%;

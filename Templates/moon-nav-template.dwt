@@ -4,57 +4,90 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- TemplateBeginEditable name="doctitle" -->
+	  
+<!-- TemplateBeginEditable name="doctitle" -->
 	<title>Mystic Moon Guide</title>
-	<!-- TemplateEndEditable -->
+<!-- TemplateEndEditable -->
+	  
 	<!-- Bootstrap -->
 	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<!-- CSS Stylesheet -->
 	<link href="../css/design.css" rel="stylesheet" type="text/css">  
+	  
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
   </head>
 	
   <body>
   	<div class="main container">
-      
 	  <nav class="row">
-        
-		<div class="col-xl-3">
-			<p class="nav"><a href="../lunar-calendar.html">Lunar Calendar</a></p>
-		</div>
-		<div class="col-xl-3">
-			<p class="nav"><a href="../index.html">Moon Names</a></p>
-		</div>
-<!--add later--------------
-		<div class="col-xl-2">
-			<p class="nav"><a href="../moon-meditations.html">Meditations</a></p>
-		</div>
---------------------------->
-		<div class="col-xl-3">
-			<p class="nav"><a href="../shop.html">Shop</a></p>
-		</div>
-		<div class="col-xl-3">
-			<p class="nav"><a href="../contact.html">Contact</a></p>
-		</div>
+		  <div class="col-xl-3">
+			  <p class="nav"><a href="../lunar-calendar.html">Lunar Calendar</a></p>
+		  </div>
+		  <div class="col-xl-3">
+			  <p class="nav"><a href="../index.html">Moon Names</a></p>
+		  </div>
+		  <div class="col-xl-3">
+			  <p class="nav"><a href="../shop.html">Shop</a></p>
+		  </div>
+		  <div class="col-xl-3">
+			  <p class="nav"><a href="../contact.html">Contact</a></p>
+		  </div>
       </nav>
 		
-<!-- TemplateBeginEditable name="main" -->
+      <div class="row">
+		  <div class="offset-xl-1 col-xl-2">
+			  <img src="images/logo-h.png" class="img-fluid d-block d-lg-none" alt="logo">
+			  <img src="images/logo-v.png" class="img-fluid d-none d-lg-block" alt="logo">&nbsp;</div>
 		
-		
+		  <div class="col-xl-7">
+<!-----BEGIN editable----------->
+<!-- TemplateBeginEditable name="Main Page Content" -->
+			  <h1>Main Headline!</h1>
+			  <p>Introductory text.</p>
+	  </div>
+  </div><!--close main intro area-->
+	  
+<!-----------featured section-------->
+      <div class="row">
+        <div class="col-xl-4">
+			<div onclick="" class="feature-section">
+				<h2>Feature Title</h2>
+				<img src="images" alt="Culture and entertainment" class="img-fluid"/>
+				<p>The feature text.</p>
+			</div>
+		</div>
+		  
+        <div class="col-xl-4">
+			<div onclick="" class="feature-section">
+				<h2>Feature Title</h2>
+				<img src="images" alt="Culture and entertainment" class="img-fluid"/>
+				<p>The feature text.</p>
+			</div>
+		</div>
+
+        <div class="col-xl-4">
+			<div onclick="" class="feature-section">
+				<h2>Feature Title</h2>
+				<img src="images" alt="Culture and entertainment" class="img-fluid"/>
+				<p>The feature text.</p>
+			</div>
+		</div>
+      </div>
+
 <!-- TemplateEndEditable -->
 		
       <div class="row">
         <div class="col-xl-12">
-			<footer>Copyright &copy; Lataj Media.</footer>
+			<footer>Copyright &copy; Lataj Media</footer>
 		</div>
       </div>
-		
-  	</div><!-- close main container -->
-
-
+  	</div><!--closing div=container-->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="../js/jquery-3.4.1.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="../js/popper.min.js"></script> 
-  <script src="../js/bootstrap-4.4.1.js"></script>
+    <script src="../js/bootstrap-4.4.1.js"></script>
   </body>
 </html>
