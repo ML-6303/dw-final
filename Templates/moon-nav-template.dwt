@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Mystic Moon Guide</title>
+	<!-- TemplateEndEditable -->
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/design.css" rel="stylesheet" type="text/css">  
+  </head>
+	
+  <body>
+  	<div class="main container">
+      
+	  <nav class="row">
+        
+		<div class="col-xl-3">
+			<p class="nav"><a href="../lunar-calendar.html">Lunar Calendar</a></p>
+		</div>
+		<div class="col-xl-3">
+			<p class="nav"><a href="../index.html">Moon Names</a></p>
+		</div>
+<!--add later--------------
+		<div class="col-xl-2">
+			<p class="nav"><a href="../moon-meditations.html">Meditations</a></p>
+		</div>
+--------------------------->
+		<div class="col-xl-3">
+			<p class="nav"><a href="../shop.html">Shop</a></p>
+		</div>
+		<div class="col-xl-3">
+			<p class="nav"><a href="../contact.html">Contact</a></p>
+		</div>
+      </nav>
+		
+<!-- TemplateBeginEditable name="main" -->
+		
+		
+<!-- TemplateEndEditable -->
+		
+      <div class="row">
+        <div class="col-xl-12">
+			<footer>Copyright &copy; Lataj Media.</footer>
+		</div>
+      </div>
+		
+  	</div><!-- close main container -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+  <script src="../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
